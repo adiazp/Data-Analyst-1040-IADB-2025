@@ -37,3 +37,7 @@ This Readme file explains how to run Run\_All.bat included in this submission pa
 11) **summary\_final\_beta.csv:** Output of the Beta regression used in the analysis.
 12) **summary\_stats.csv:** Summary statistics of data_final.csv.
 13) **Run\_All.log:** Log of the run of Run_All.bat.
+
+### Github:
+
+Github available at: https://github.com/adiazp/Data-Analyst-1040-IADB-2025
