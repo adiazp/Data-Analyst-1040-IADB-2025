@@ -16,7 +16,7 @@ This Readme file explains how to run Run\_All.bat included in this submission pa
 
 1) **IADB\_process.py:** Pulls the data from the IADB’s website and preprocesses it so it is left ready or almost ready for fitting models. The main output is a CSV file with the data in wide form that will be used for fitting models.  
 2) **IADB\_fit.R:** Does some last-minute data processing (reads the CSV output from IADB\_process.py, so it needs to convert some variables to factors) and fits models. This program also installs any required R packages.  
-3) **RunAll.bat:** Installs the necessary Python packages using pip, runs IADB\_process.py and IADB\_fit.R
+3) **Run\_All.bat:** Installs the necessary Python packages using pip, runs IADB\_process.py and IADB\_fit.R
 
 ### Other inputs:
 
@@ -36,3 +36,4 @@ This Readme file explains how to run Run\_All.bat included in this submission pa
 10) **summary\_step\_beta.csv:** Output of the Beta regression after doing backwards selection.  
 11) **summary\_final\_beta.csv:** Output of the Beta regression used in the analysis.
 12) **summary\_stats.csv:** Summary statistics of data_final.csv.
+13) **Run\_All.log:** Log of the run of Run_All.bat.
